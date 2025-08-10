@@ -1,0 +1,76 @@
+.build-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.build-inputs-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-left: 5px solid #3498db;
+  margin-bottom: 20px;
+  background-color: white;
+  gap: 20px;
+}
+
+.build-form label {
+  margin-bottom: 20px;
+  color: #2980b9;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.build-form input[type="number"] {
+  padding: 12px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2980b9;
+  transition: border-color 0.3s;
+}
+
+.build-form input[type="number"]:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+.build-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.build-button:hover {
+  background-color: #2980b9;
+}
+
+.nav-button button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-button button:hover {
+  background-color: #2980b9;
+}
