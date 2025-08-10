@@ -19,7 +19,9 @@ export default function FormPage(): React.ReactElement {
 
   const handleFieldChange = (name: FormField["name"], value: number) => {
     setFields(
-      fields.map((field) => (field.name === name ? { ...field, value } : field))
+      fields.map((field: FormField) =>
+        field.name === name ? { ...field, value } : field
+      )
     );
   };
 
