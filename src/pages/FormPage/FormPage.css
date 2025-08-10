@@ -1,0 +1,43 @@
+.rendered-form {
+  min-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-left: 5px solid #3498db;
+  background-color: white;
+}
+
+label,
+h2 {
+  color: #2980b9;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+.rendered-form input[type="text"],
+textarea {
+  width: 95%;
+  display: block;
+  padding: 12px;
+  margin-block: 8px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2980b9;
+  transition: border-color 0.3s;
+}
+
+.rendered-form input[type="text"]:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+.form-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
